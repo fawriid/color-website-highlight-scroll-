@@ -581,3 +581,14 @@ ul {
     width: 370px;
   }
 }
+
+/* JOIN US SECTION (ABOUT COPIED) */
+@media screen and (max-width: 1100px) {
+  .join__section .about__img {
+    margin-top: 5rem;
+  }
+  .join__section .about__information {
+    position: relative;
+    right: 20px;
+  }
+}

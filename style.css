@@ -152,10 +152,11 @@ ul {
     width: 100%;
     transition: all 0.4s linear;
     opacity: 0.6;
+    z-index: -5;
   }
   .nav__links.active {
     margin: 0;
-    z-index: -2;
+    z-index: -5;
     right: 0;
     background: #131313;
     width: 100%;
@@ -163,7 +164,7 @@ ul {
     top: 100%;
     text-align: center;
     margin: 0 auto;
-    transition: all 0.4s linear;
+    transition: all 0.2s linear;
     opacity: 1;
   }
   .nav__links--container {

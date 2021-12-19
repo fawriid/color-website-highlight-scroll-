@@ -189,6 +189,22 @@ ul {
     padding: 0 0rem;
   }
 }
+@media screen and (max-width: 500px) {
+  /* .navbar{
+    padding: 0 2rem;
+  }
+  .nav__wrapper{
+    padding: 2rem 2rem;
+    width: 90%;
+  } */
+  .nav__logo {
+    font-size: 3rem;
+  }
+  .bars {
+    width: 40px;
+    height: 3px;
+  }
+}
 
 /* HERO SECTION */
 .hero__section {
@@ -429,6 +445,56 @@ ul {
     width: 100%;
   }
 }
+@media screen and (max-width: 400px) {
+  .about__wrapper {
+    width: 90%;
+  }
+  .about__information {
+    /* padding: 0 2rem; */
+    position: relative;
+    right: 20px;
+  }
+  .about__information h1 {
+    font-size: 2.4rem;
+  }
+  .about__information h2 {
+    font-size: 3.7rem;
+  }
+  .about__information p {
+    font-size: 1.5rem;
+  }
+  .about__img--card {
+    width: 220px;
+    height: 220px;
+    margin: 0 auto;
+    font-size: 6.6rem;
+  }
+}
+@media screen and (max-width: 300px) {
+  .about__wrapper {
+    width: 90%;
+  }
+  .about__information {
+    /* padding: 0 2rem; */
+    position: relative;
+    right: 20px;
+  }
+  .about__information h1 {
+    font-size: 2.4rem;
+  }
+  .about__information h2 {
+    font-size: 3.7rem;
+  }
+  .about__information p {
+    font-size: 1.5rem;
+  }
+  .about__img--card {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    font-size: 6rem;
+  }
+}
 
 /* SERVICES SECTION */
 .services__section {
@@ -582,6 +648,54 @@ ul {
     width: 370px;
   }
 }
+@media screen and (max-width: 400px) {
+  .services__items {
+    margin: 0 auto;
+    width: 290px;
+  }
+  .services__items {
+    margin: 0 auto;
+    width: 220px;
+  }
+  .services__items h2 {
+    font-size: 2rem;
+  }
+  .services__items p {
+    font-size: 1.2rem;
+  }
+  .services__items button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 1rem 2rem;
+    background-color: #000;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 300px) {
+  .services__items {
+    margin: 0 auto;
+    width: 190px;
+  }
+  .services__items h2 {
+    font-size: 2rem;
+  }
+  .services__items p {
+    font-size: 1.2rem;
+  }
+  .services__items button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 1rem 2rem;
+    background-color: #000;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+}
 
 /* JOIN US SECTION (ABOUT COPIED) */
 @media screen and (max-width: 1100px) {
@@ -671,5 +785,16 @@ footer p {
   }
   .footer__media div {
     margin: 2rem 0;
+  }
+}
+@media screen and (max-width: 500px) {
+  .footer__links--items {
+    margin: 2rem 0;
+  }
+  .footer__links--wrapper {
+    flex-direction: column;
+  }
+  .footer__links {
+    flex-direction: column;
   }
 }

@@ -798,3 +798,10 @@ footer p {
     flex-direction: column;
   }
 }
+
+/* NAVBAR ITEM HIGHLITS ADD WITH JS*/
+.highlight {
+  border-bottom: 4px solid blueviolet;
+  border-radius: 4px;
+  transition: all 100ms linear;
+}

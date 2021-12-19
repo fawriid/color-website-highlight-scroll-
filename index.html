@@ -14,15 +14,16 @@
 
 <body>
 
+    <!-- NAVBAR -->
     <nav class="navbar">
         <div class="nav__wrapper">
             <div class="nav__logo">COLORS</div>
             <div class="nav__links">
                 <ul class="nav__links--container">
-                    <li class="navbar__items"><a href="home">Home</a></li>
-                    <li class="navbar__items"><a href="bout">About</a></li>
-                    <li class="navbar__items"><a href="services">Services</a></li>
-                    <li class="nav-btn"><a href="sign-up" class="button">Sign Up</a></li>
+                    <li class="navbar__items"><a href="#home">Home</a></li>
+                    <li class="navbar__items"><a href="#about">About</a></li>
+                    <li class="navbar__items"><a href="#services">Services</a></li>
+                    <li class="nav-btn"><a href="#sign-up" class="button">Sign Up</a></li>
                 </ul>
             </div>
             <div class="mobile__nav--bars" id="mobile__nav">
@@ -33,6 +34,29 @@
         </div>
     </nav>
 
+    <!-- HERO SECTION -->
+    <div class="hero__section" id="home">
+        <div class="hero__wrapper">
+            <h1>Choose your <span>color</span></h1>
+            <h2>Unlimited Possibilities</h2>
+            <button class="main-btn"><a href="#home">Explore</a></button>
+        </div>
+    </div>
+
+    <!-- ABOUT SECTION  -->
+    <div class="about__section" id="about">
+        <div class="about__wrapper">
+            <div class="about__img">
+                <div class="about__img--card"><i class="fas fa-layer-group"></i></div>
+            </div>
+            <div class="about__information">
+                <h1>what do we do?</h1>
+                <h2>We help businesses scale</h2>
+                <p>Schedule a call to learn more about out services</p>
+                <button class="main-btn"><a href="#">Schedule Call</a></button>
+            </div>
+        </div>
+    </div>
 
     <script src="/app.js"></script>
 </body>
